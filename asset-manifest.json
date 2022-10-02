@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a9189521.css",
+    "main.js": "/static/js/main.8e7570fa.js",
+    "static/media/puze2.jpg": "/static/media/puze2.c3ff55b39d06c1ad6d77.jpg",
+    "static/media/insureMockup.jpg": "/static/media/insureMockup.12830c1504feaf790609.jpg",
+    "static/media/puzeMockup.jpg": "/static/media/puzeMockup.d6e195ef42ba3328cc23.jpg",
+    "static/media/puze1.jpg": "/static/media/puze1.d4ad26ab2107fbec9517.jpg",
+    "static/media/insure1.jpg": "/static/media/insure1.3bf5c6d2087a65bf4872.jpg",
+    "static/media/insure2.jpg": "/static/media/insure2.42fb7d5cbb4285ee8ba2.jpg",
+    "static/media/recepiesMockup1.jpg": "/static/media/recepiesMockup1.c0ed46893fa73efd1bbb.jpg",
+    "static/media/puze3.jpg": "/static/media/puze3.a40f262656c943313f90.jpg",
+    "static/media/profile.jpg": "/static/media/profile.4073e803a2c7e76b235b.jpg",
+    "static/media/tictactoeMockup.jpg": "/static/media/tictactoeMockup.2ce9b5f147ff0c09cc81.jpg",
+    "static/media/recepiesMockup2.jpg": "/static/media/recepiesMockup2.29bb0bba328568a6fd82.jpg",
+    "static/media/memoryGameMockup.jpg": "/static/media/memoryGameMockup.c6846e8ce582354f50ef.jpg",
+    "static/media/woordleCloneMockup.jpg": "/static/media/woordleCloneMockup.8451437cf389b3ec2891.jpg",
+    "static/media/budgetCalculatorMockup.jpg": "/static/media/budgetCalculatorMockup.57e108fee596f75b6623.jpg",
+    "static/media/hangmanMockup.jpg": "/static/media/hangmanMockup.1b465d139076cc2010e5.jpg",
+    "static/media/signature-logo.svg": "/static/media/signature-logo.0f56c73d38899d4cee1be75bd5490be1.svg",
+    "index.html": "/index.html",
+    "main.a9189521.css.map": "/static/css/main.a9189521.css.map",
+    "main.8e7570fa.js.map": "/static/js/main.8e7570fa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a9189521.css",
+    "static/js/main.8e7570fa.js"
+  ]
+}
