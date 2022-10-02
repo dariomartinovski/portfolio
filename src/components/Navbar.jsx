@@ -31,16 +31,16 @@ export default function Navbar({ screenWidth }) {
           {/* <a href="#section1">
             <li className="navlink">HOME</li>
           </a> */}
-          <HashLink smooth to="/portfolio/#home">
+          <HashLink smooth to="/#home">
             <li className="navlink">HOME</li>
           </HashLink>
-          <HashLink smooth to="/portfolio/#about">
+          <HashLink smooth to="/#about">
             <li className="navlink">ABOUT</li>
           </HashLink>
-          <HashLink smooth to="/portfolio/#projects">
+          <HashLink smooth to="/#projects">
             <li className="navlink">PROJECTS</li>
           </HashLink>
-          <HashLink smooth to="/portfolio/#contact">
+          <HashLink smooth to="/#contact">
             <li className="navlink">CONTACT</li>
           </HashLink>
         </ul>

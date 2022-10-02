@@ -6,8 +6,8 @@ import ProjectsPage from "./ProjectsPage";
 export default function Pages() {
   return (
     <Routes>
-      <Route path="/portfolio/" element={<Home />} />
-      <Route path="/portfolio/projects" element={<ProjectsPage />} />
+      <Route path="/" element={<Home />} />
+      <Route path="/projects" element={<ProjectsPage />} />
     </Routes>
   );
 }
