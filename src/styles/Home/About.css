@@ -1,0 +1,154 @@
+#about{
+    padding-top: 3rem;
+    width: 100%;
+    min-height: calc(100vh - 3rem);
+    background-color: var(--lightColor);
+    color: var(--darkColor);
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+}
+#about h1{
+    margin: 2rem 0;
+    font-size: var(--titleFont);
+    font-weight: bold;
+    text-align: center;
+}
+#about .upperPart{
+    margin: 2rem 10vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(12rem, 1fr));
+    gap: 2rem;
+    text-align: center;
+}
+#about .upperPart .icon h2{
+    margin-bottom: 0.5rem;
+}
+#about .upperPart .icon p{
+    margin: 0 auto;
+    max-width: 30ch;
+    line-height: 1.5;
+}
+#about .upperPart .icon .iconImage{
+    font-size: 3.5rem;
+    margin: 0 auto 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--blueColor);
+    color: var(--lightColor);
+    width: 7.5rem;
+    aspect-ratio: 1.15/1;
+    clip-path: polygon(0 50%, 25% 0, 75% 0, 100% 50%, 75% 100%, 25% 100%);
+}
+#about .upperPart .icon:nth-child(even) .iconImage{
+    background-color: var(--darkColor);
+}
+#about .bottomPart{
+    margin: 2rem 10vw;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    justify-content: center;
+    gap: 5rem;
+}
+#about .bottomPart .intro .image{
+    margin: 0 auto;
+    overflow: hidden;
+    height: 15rem;
+    background-color: var(--darkColor);
+    aspect-ratio: 1.15/1;
+    background-image: url("../../images/profile.jpg");
+    background-position: center;
+    background-size: cover;
+    clip-path: polygon(0 50%, 25% 0, 75% 0, 100% 50%, 75% 100%, 25% 100%);
+}
+#about .bottomPart .intro h2{
+    margin: 1rem 0 0.5rem;
+    text-align: center;
+}
+#about .bottomPart .intro p{
+    margin: 0 auto;
+    line-height: 1.5;
+    padding: 0 1rem;
+    max-width: 50ch;
+}
+#about .bottomPart .intro p span{
+    color: var(--blueColor);
+}
+#about .bottomPart .skills .progressBar{
+    margin: 1rem 0;
+    width: 100%;
+    background-color: var(--offWhite);
+    position: relative;
+    isolation: isolate;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#about .bottomPart .skills .progressBar p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: var(--lightColor);
+    background-color: var(--darkBlue);
+    min-height: 2rem;
+    width: 4rem;
+    padding: 0 2rem;
+}
+#about .bottomPart .skills .progressBar .percentage{
+    margin-right: 1rem;
+    font-weight: bold;
+}
+#about .bottomPart .skills .progressBar .filled{
+    position: absolute;
+    height: 100%;
+    background-color: var(--blueColor);
+    z-index: -1;
+}
+#about::before{
+    content: 'ABOUT';
+    color: var(--dark-color);
+    position: absolute;
+    z-index: -1;
+    top: 15vh;
+    left: -0.4em;
+    font-weight: bold;
+    font-size: var(--backgroundFont);
+    letter-spacing: -0.5vmax;
+    opacity: 0.1;
+    line-height: 0.85;
+}
+#about::after{
+    content: 'ABOUT';
+    color: var(--dark-color);
+    font-weight: bold;
+    position: absolute;
+    z-index: -1;
+    top: 82vh;
+    right: -2em;
+    font-size: var(--backgroundFont);
+    letter-spacing: -0.5vmax;
+    opacity: 0.1;
+    line-height: 0.85;
+}
+@media only screen and (max-width: 650px){
+    #about h1{
+        font-size: calc(var(--titleFont) + 1vmin);
+    }
+    #about .upperPart{
+        grid-template-columns: 1fr 1fr;
+    } 
+    #about .bottomPart .progressBar{
+        margin: 0.5rem 0;
+    }
+    #about .bottomPart .intro .image{
+        height: 10rem;
+    }
+}
+@media only screen and (max-width:750px) {
+    #about .bottomPart{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}

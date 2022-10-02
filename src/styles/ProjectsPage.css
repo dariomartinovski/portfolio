@@ -1,0 +1,66 @@
+#moreProjects{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    background-color: var(--lightColor);
+}
+#moreProjects button{
+    color: var(--darkColor);
+    background-color: transparent;
+    border: 0.067rem solid var(--darkColor);
+    padding: 0.8rem 1.5rem;
+    margin-right: 1rem;
+    transition: all 200ms ease-in;
+}
+#moreProjects button:hover{
+    background-color: var(--darkColor);
+    color: var(--lightColor);
+}
+#moreProjects h1{
+    margin: 2rem 20vw 0;
+    font-size: var(--titleFont);
+    grid-column: 1/-1;
+}
+#moreProjects .meckuevskaKuka, #moreProjects .insureLandingPage, #moreProjects .recepiesApp, #moreProjects .budgetWoordle, #moreProjects .miniGames{
+    grid-column: 1/-1;
+    margin: 0 20vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+#moreProjects img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#moreProjects .meckuevskaKuka img:first-of-type{
+    grid-row: span 2;
+}
+#moreProjects .miniGames{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#moreProjects .miniGames h2{
+    grid-column: 1/-1;
+}
+#moreProjects .miniGames h4{
+    text-align: center;
+    margin: 0.5rem 0;
+}
+#moreProjects .miniGames button{
+    margin: 1rem 0;
+}
+#moreProjects .miniGames a{
+    text-align: center;
+}
+
+#moreProjects .moreComingSoon{
+    margin-bottom: 3rem;
+}
+
+#moreProjects h2, #moreProjects h3, #moreProjects p{
+    margin-bottom: 1rem;
+}
+#moreProjects p{
+    line-height: 1.3;
+}
