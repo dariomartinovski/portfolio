@@ -40,7 +40,7 @@ export default function Projects() {
           </span>
         </div>
       </div>
-      <Link to={"/projects"}>
+      <Link to={"/portfolio/projects"}>
         <button>View more</button>
       </Link>
     </section>
