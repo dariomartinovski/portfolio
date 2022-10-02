@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a9189521.css",
-    "main.js": "/static/js/main.8e7570fa.js",
+    "main.js": "/static/js/main.74529ff5.js",
     "static/media/puze2.jpg": "/static/media/puze2.c3ff55b39d06c1ad6d77.jpg",
     "static/media/insureMockup.jpg": "/static/media/insureMockup.12830c1504feaf790609.jpg",
     "static/media/puzeMockup.jpg": "/static/media/puzeMockup.d6e195ef42ba3328cc23.jpg",
@@ -20,10 +20,10 @@
     "static/media/signature-logo.svg": "/static/media/signature-logo.0f56c73d38899d4cee1be75bd5490be1.svg",
     "index.html": "/index.html",
     "main.a9189521.css.map": "/static/css/main.a9189521.css.map",
-    "main.8e7570fa.js.map": "/static/js/main.8e7570fa.js.map"
+    "main.74529ff5.js.map": "/static/js/main.74529ff5.js.map"
   },
   "entrypoints": [
     "static/css/main.a9189521.css",
-    "static/js/main.8e7570fa.js"
+    "static/js/main.74529ff5.js"
   ]
 }
