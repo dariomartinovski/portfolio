@@ -22,7 +22,7 @@ export default function ProjectsPage() {
         <img src={puze1} alt="Mechuevska kukja puze" />
         <img src={puze2} alt="Mechuevska kukja puze" />
         <img src={puze3} alt="Mechuevska kukja puze" />
-        <div>
+        <div className="clientSide">
           <h2>Mechuevska Kukja Puze website redesign</h2>
           <p>
             Client: x<br />
@@ -31,7 +31,7 @@ export default function ProjectsPage() {
             Date: 10.06.2022
           </p>
         </div>
-        <div>
+        <div className="summary">
           <h3>Summary</h3>
           <p>
             The design challange here was to simplify the old design, that was
@@ -59,7 +59,7 @@ export default function ProjectsPage() {
       <div className="insureLandingPage">
         <img src={insure1} alt="Insure landing page" />
         <img src={insure2} alt="Insure landing page" />
-        <div>
+        <div className="clientSide">
           <h2>Insure landing page</h2>
           <p>
             Client: x<br />
@@ -68,7 +68,7 @@ export default function ProjectsPage() {
             Date: 15.06.2022
           </p>
         </div>
-        <div>
+        <div className="summary">
           <h3>Summary</h3>
           <p>
             The design challenge here was to make a responsive landing page for
@@ -87,7 +87,7 @@ export default function ProjectsPage() {
       <div className="recepiesApp">
         <img src={recepies1} alt="Recepies app" />
         <img src={recepies2} alt="Recepies app" />
-        <div>
+        <div className="clientSide">
           <h2>Recepies app</h2>
           <p>
             Client: x<br />
@@ -96,7 +96,7 @@ export default function ProjectsPage() {
             Date: 20.09.2022
           </p>
         </div>
-        <div>
+        <div className="summary">
           <h3>Summary</h3>
           <p>
             The design challenge here was to make a responsive landing page for
@@ -115,7 +115,7 @@ export default function ProjectsPage() {
       <div className="budgetWoordle">
         <img src={woordle} alt="Woordle" />
         <img src={budgetCalculator} alt="Budget calculator" />
-        <div>
+        <div className="summary">
           <h2>Woordle clone</h2>
           <p>
             Time: two days
@@ -135,7 +135,7 @@ export default function ProjectsPage() {
             <button>Visit website</button>
           </a>
         </div>
-        <div>
+        <div className="summary">
           <h2>Budget calculator</h2>
           <p>
             Time: three hours
