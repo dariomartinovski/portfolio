@@ -4,9 +4,11 @@ import hangman from "../images/Mockups/hangmanMockup.jpg";
 import insure1 from "../images/Mockups/insure1.jpg";
 import insure2 from "../images/Mockups/insure2.jpg";
 import memoryGame from "../images/Mockups/memoryGameMockup.jpg";
+import menu2 from "../images/Mockups/menuLaptopMockup.jpg";
+import menu3 from "../images/Mockups/menuPhonesMockup.jpg";
+import menu1 from "../images/Mockups/menuScreensMockup.jpg";
 import puze1 from "../images/Mockups/puze1.jpg";
 import puze2 from "../images/Mockups/puze2.jpg";
-import puze3 from "../images/Mockups/puze3.jpg";
 import recepies1 from "../images/Mockups/recepiesMockup1.jpg";
 import recepies2 from "../images/Mockups/recepiesMockup2.jpg";
 import tictactoe from "../images/Mockups/tictactoeMockup.jpg";
@@ -18,10 +20,40 @@ export default function ProjectsPage() {
   return (
     <section id="moreProjects">
       <h1>Projects</h1>
+      <div className="planbMenu">
+        <img src={menu1} alt="Plab B online menu" />
+        <img src={menu2} alt="Plan B online menu" />
+        <img src={menu3} alt="Plan B online menu" />
+        <div className="clientSide">
+          <h2>Plan B online menu</h2>
+          <p>
+            Client: Plan B<br />
+            Time: two weeks
+            <br />
+            Date: 10.10.2022
+          </p>
+        </div>
+        <div className="summary">
+          <h3>Summary</h3>
+          <p>
+            The design challange here was to simplify the old design, that was
+            pretty "busy" in a sense. There was alot of unreadable text and many
+            out of place images. I simplified the design by reducing the color
+            palette and adding more contrast to the text, better hierarchy and
+            also better positioned the images.
+          </p>
+          <a
+            href="https://dariomartinovski.github.io/onlineMenu/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button>Visit website</button>
+          </a>
+        </div>
+      </div>
       <div className="meckuevskaKuka">
         <img src={puze1} alt="Mechuevska kukja puze" />
         <img src={puze2} alt="Mechuevska kukja puze" />
-        <img src={puze3} alt="Mechuevska kukja puze" />
         <div className="clientSide">
           <h2>Mechuevska Kukja Puze website redesign</h2>
           <p>

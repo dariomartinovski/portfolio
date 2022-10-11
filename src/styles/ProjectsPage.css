@@ -34,7 +34,7 @@
     width: 100%;
     object-fit: cover;
 }
-#moreProjects .meckuevskaKuka img:first-of-type{
+#moreProjects .planbMenu img:first-of-type{
     grid-row: span 2;
 }
 #moreProjects .miniGames{
@@ -67,26 +67,27 @@
         margin: 2rem 10vw 0;
     }
     #moreProjects button{
-        margin: 0.5rem 0;
+        margin: 0.5rem;
     }
     #moreProjects>div{
         margin: 0 10vw;
     }
-    #moreProjects .meckuevskaKuka img:first-of-type{
-        grid-row: 1/2;
-    }
-    #moreProjects .meckuevskaKuka .clientSide, #moreProjects .recepiesApp .clientSide{
+    #moreProjects .planbMenu .clientSide, #moreProjects .meckuevskaKuka .clientSide, #moreProjects .recepiesApp .clientSide{
         grid-column: 1/2;
         grid-row: 2/3;
         align-self: flex-end;
     }
-    #moreProjects .insureLandingPage .clientSide, #moreProjects .recepiesApp .clientSide, #moreProjects .recepiesApp img:nth-of-type(1){
+    #moreProjects .insureLandingPage .clientSide, #moreProjects .recepiesApp .clientSide, #moreProjects .meckuevskaKuka img:first-of-type, #moreProjects .recepiesApp img:first-of-type{
         grid-column: 1/-1;
     }
-    #moreProjects .recepiesApp .clientSide{
-        grid-row: 2/3;
+    #moreProjects .planbMenu img:first-of-type{
+        grid-row: 1/2;
+        grid-column: 1/2;
     }
-    #moreProjects .recepiesApp img:nth-of-type(2){
+    #moreProjects .planbMenu img:nth-last-of-type(2){
+        object-position: right;
+    }
+    #moreProjects .meckuevskaKuka img:nth-of-type(2), #moreProjects .recepiesApp img:nth-of-type(2){
         grid-column: 2/3;
         grid-row: 2/3;
     }
