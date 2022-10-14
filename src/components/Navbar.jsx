@@ -4,12 +4,21 @@ import { HashLink } from "react-router-hash-link";
 import logo from "../images/signature-logo.svg";
 import "../styles/Navbar.css";
 
-export default function Navbar({ screenWidth }) {
+export default function Navbar() {
   let [menuState, setMenuState] = useState(false);
 
+  const showMenu = () => {
+    window.innerWidth <= 650 ? setMenuState(false) : setMenuState(true);
+  };
+  const closeMenu = () => {
+    setMenuState(false);
+  };
+
   useEffect(() => {
-    screenWidth < 650 ? setMenuState(false) : setMenuState(true);
-  }, [screenWidth]);
+    showMenu();
+  }, []);
+
+  window.addEventListener("resize", showMenu);
 
   return (
     <nav>
@@ -28,19 +37,16 @@ export default function Navbar({ screenWidth }) {
       </button>
       {menuState && (
         <ul className="navlinks">
-          {/* <a href="#section1">
-            <li className="navlink">HOME</li>
-          </a> */}
-          <HashLink smooth to="/#home">
+          <HashLink smooth to="/#home" onClick={closeMenu}>
             <li className="navlink">HOME</li>
           </HashLink>
-          <HashLink smooth to="/#about">
+          <HashLink smooth to="/#about" onClick={closeMenu}>
             <li className="navlink">ABOUT</li>
           </HashLink>
-          <HashLink smooth to="/#projects">
+          <HashLink smooth to="/#projects" onClick={closeMenu}>
             <li className="navlink">PROJECTS</li>
           </HashLink>
-          <HashLink smooth to="/#contact">
+          <HashLink smooth to="/#contact" onClick={closeMenu}>
             <li className="navlink">CONTACT</li>
           </HashLink>
         </ul>
