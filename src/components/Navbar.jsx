@@ -11,7 +11,7 @@ export default function Navbar() {
     window.innerWidth <= 650 ? setMenuState(false) : setMenuState(true);
   };
   const closeMenu = () => {
-    setMenuState(false);
+    if (window.innerWidth <= 650) setMenuState(false);
   };
 
   useEffect(() => {
