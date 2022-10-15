@@ -42,7 +42,7 @@
     background-size: cover;
 }
 #projects .container:nth-child(2) .imageArea{
-    background-image: url("../../images/insureMockup.jpg");
+    background-image: url("../../images/onlineMenuMockup.jpg");
 }
 #projects .container:nth-child(3) .imageArea{
     background-image: url("../../images/puzeMockup.jpg");

@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import React from "react";
 import { HiChevronDoubleDown } from "react-icons/hi";
 import { Link } from "react-router-dom";
@@ -18,9 +19,14 @@ export default function LandingPage() {
           <button>View CV</button>
         </Link>
       </div>
-      <div className="arrow">
+      <motion.div
+        className="arrow"
+        initial={{ bottom: "5rem" }}
+        animate={{ bottom: "1rem" }}
+        transition={{ duration: 0.3 }}
+      >
         <HiChevronDoubleDown />
-      </div>
+      </motion.div>
     </section>
   );
 }

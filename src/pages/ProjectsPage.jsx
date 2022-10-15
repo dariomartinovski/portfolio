@@ -36,11 +36,11 @@ export default function ProjectsPage() {
         <div className="summary">
           <h3>Summary</h3>
           <p>
-            The design challange here was to simplify the old design, that was
-            pretty "busy" in a sense. There was alot of unreadable text and many
-            out of place images. I simplified the design by reducing the color
-            palette and adding more contrast to the text, better hierarchy and
-            also better positioned the images.
+            In this projects, as the name sugests i needed to create an online
+            menu for a coffee bar. For the general design and structure i used
+            HTML5 and CSS3, and then for generating the items i used vanilla
+            JavaScript. I also used JavaScipt for the homescreen animations. The
+            website is fully mobile responsive.
           </p>
           <a
             href="https://dariomartinovski.github.io/onlineMenu/"
@@ -131,9 +131,11 @@ export default function ProjectsPage() {
         <div className="summary">
           <h3>Summary</h3>
           <p>
-            The design challenge here was to make a responsive landing page for
-            an insurance company called INSURE. The goal was to put attention on
-            their people first policy and their great and affordable prices.
+            This project was created using ReactJS. This was my first time
+            working with api calls. I got data from the spoonacular api and from
+            the cocktailDB api accordingly. Also i used a few ReactJS libraries
+            like splideJS for the carousells and react-router-dom for the
+            navigation.
           </p>
           <a
             href="https://dariomartinovski.github.io/recepiesApp/"
@@ -155,9 +157,13 @@ export default function ProjectsPage() {
             Date: 25.08.2022
           </p>
           <p>
-            The design challenge here was to make a responsive landing page for
-            an insurance company called INSURE. The goal was to put attention on
-            their people first policy and their great and affordable prices.
+            Everybody knows woordle right? Well I liked the game so much I
+            wanted to play more, but I was limited to one word per day, and then
+            I figured why not make a similar game myself. And so I did, I made
+            everything from scratch, starting with the design to the logic, all
+            using ReactJS. I used a json file as a database for the words. The
+            only diffence is that this game generates a new word on every
+            refresh.
           </p>
           <a
             href="https://dariomartinovski.github.io/woordleClone/"
@@ -175,9 +181,12 @@ export default function ProjectsPage() {
             Date: 28.08.2022
           </p>
           <p>
-            The design challenge here was to make a responsive landing page for
-            an insurance company called INSURE. The goal was to put attention on
-            their people first policy and their great and affordable prices.
+            This project was also created with ReactJS, it's a really simple
+            application made for recording your expenses. You can add, edit and
+            remove expenses from the list and you can see your total. There's
+            also a filter option for filtering the expenses by their amount. The
+            app uses local storage, so if you refresh the expenses wont be
+            deleted.
           </p>
           <a
             href="https://dariomartinovski.github.io/budgetCalculator/"

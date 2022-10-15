@@ -8,15 +8,18 @@ export default function Projects() {
       <h1>Projects</h1>
       <div className="container">
         <div className="textArea">
-          <h3>Insure landing page</h3>
+          <h3>Plan B online menu</h3>
           <p>
-            The design challenge here was to make a responsive landing page for
-            an insurance company called INSURE. The goal was to put attention on
-            their people first policy and their great and affordable prices.
+            In this projects, as the name sugests i needed to create an online
+            menu for a coffee bar. For the general design and structure i used
+            HTML5 and CSS3, and then for generating the items i used vanilla
+            JavaScript. I also used JavaScipt for the homescreen animations. The
+            website is fully mobile responsive.
           </p>
           <span className="tags">
             <p className="tag">HTML5</p>
             <p className="tag">CSS3</p>
+            <p className="tag">JavaScript</p>
           </span>
         </div>
         <div className="imageArea"></div>
