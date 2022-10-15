@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
@@ -6,12 +7,17 @@ import "../styles/Navbar.css";
 
 export default function Navbar() {
   let [menuState, setMenuState] = useState(false);
+  let [rotation, setRotation] = useState(0);
 
   const showMenu = () => {
     window.innerWidth <= 650 ? setMenuState(false) : setMenuState(true);
   };
   const closeMenu = () => {
     if (window.innerWidth <= 650) setMenuState(false);
+  };
+  const handleClick = () => {
+    setMenuState(!menuState);
+    rotation === 0 ? setRotation(180) : setRotation(0);
   };
 
   useEffect(() => {
@@ -25,7 +31,11 @@ export default function Navbar() {
       <Link to={"/"} className="homeButton">
         <img src={logo} alt="Logo" />
       </Link>
-      <button className="toggleButton" onClick={() => setMenuState(!menuState)}>
+      <motion.button
+        className="toggleButton"
+        onClick={handleClick}
+        animate={{ rotate: rotation }}
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           height="48"
@@ -34,7 +44,7 @@ export default function Navbar() {
         >
           <path d="M6 36v-3h36v3Zm0-10.5v-3h36v3ZM6 15v-3h36v3Z" />
         </svg>
-      </button>
+      </motion.button>
       {menuState && (
         <ul className="navlinks">
           <HashLink smooth to="/#home" onClick={closeMenu}>
