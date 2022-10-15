@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.42ae7108.css",
-    "main.js": "/portfolio/static/js/main.20bf9338.js",
-    "static/media/insureMockup.jpg": "/portfolio/static/media/insureMockup.12830c1504feaf790609.jpg",
-    "static/media/puzeMockup.jpg": "/portfolio/static/media/puzeMockup.d6e195ef42ba3328cc23.jpg",
+    "main.css": "/portfolio/static/css/main.c6f02e1a.css",
+    "main.js": "/portfolio/static/js/main.a5d1a7e1.js",
+    "static/media/puzeMockup.jpg": "/portfolio/static/media/puzeMockup.9f667ed787a18ac562ea.jpg",
     "static/media/menuScreensMockup.jpg": "/portfolio/static/media/menuScreensMockup.316619a29586b77e6dda.jpg",
     "static/media/insure1.jpg": "/portfolio/static/media/insure1.3bf5c6d2087a65bf4872.jpg",
     "static/media/insure2.jpg": "/portfolio/static/media/insure2.42fb7d5cbb4285ee8ba2.jpg",
+    "static/media/onlineMenuMockup.jpg": "/portfolio/static/media/onlineMenuMockup.94c8ea3323513a707523.jpg",
     "static/media/recepiesMockup1.jpg": "/portfolio/static/media/recepiesMockup1.c0ed46893fa73efd1bbb.jpg",
     "static/media/puze2.jpg": "/portfolio/static/media/puze2.a40f262656c943313f90.jpg",
     "static/media/puze1.jpg": "/portfolio/static/media/puze1.3be815ebdd2b487d7c73.jpg",
@@ -21,11 +21,11 @@
     "static/media/hangmanMockup.jpg": "/portfolio/static/media/hangmanMockup.1b465d139076cc2010e5.jpg",
     "static/media/signature-logo.svg": "/portfolio/static/media/signature-logo.0f56c73d38899d4cee1be75bd5490be1.svg",
     "index.html": "/portfolio/index.html",
-    "main.42ae7108.css.map": "/portfolio/static/css/main.42ae7108.css.map",
-    "main.20bf9338.js.map": "/portfolio/static/js/main.20bf9338.js.map"
+    "main.c6f02e1a.css.map": "/portfolio/static/css/main.c6f02e1a.css.map",
+    "main.a5d1a7e1.js.map": "/portfolio/static/js/main.a5d1a7e1.js.map"
   },
   "entrypoints": [
-    "static/css/main.42ae7108.css",
-    "static/js/main.20bf9338.js"
+    "static/css/main.c6f02e1a.css",
+    "static/js/main.a5d1a7e1.js"
   ]
 }
