@@ -21,9 +21,8 @@ export default function LandingPage() {
       </div>
       <motion.div
         className="arrow"
-        initial={{ bottom: "5rem" }}
-        animate={{ bottom: "1rem" }}
-        transition={{ duration: 0.3 }}
+        animate={{ bottom: ["2rem", "6rem", "2rem", "6rem", "1rem"] }}
+        transition={{ duration: 1.2 }}
       >
         <HiChevronDoubleDown />
       </motion.div>
