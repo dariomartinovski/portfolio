@@ -1,4 +1,5 @@
 import React from "react";
+import { BsGithub } from "react-icons/bs";
 import budgetCalculator from "../images/Mockups/budgetCalculatorMockup.jpg";
 import hangman from "../images/Mockups/hangmanMockup.jpg";
 import insure1 from "../images/Mockups/insure1.jpg";
@@ -42,13 +43,22 @@ export default function ProjectsPage() {
             JavaScript. I also used JavaScipt for the homescreen animations. The
             website is fully mobile responsive.
           </p>
-          <a
-            href="https://dariomartinovski.github.io/onlineMenu/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <button>Visit website</button>
-          </a>
+          <div className="links">
+            <a
+              href="https://dariomartinovski.github.io/onlineMenu/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button>Visit website</button>
+            </a>
+            <a
+              href="https://github.com/dariomartinovski/onlineMenu"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <BsGithub />
+            </a>
+          </div>
         </div>
       </div>
       <div className="meckuevskaKuka">
@@ -72,20 +82,22 @@ export default function ProjectsPage() {
             palette and adding more contrast to the text, better hierarchy and
             also better positioned the images.
           </p>
-          <a
-            href="https://dariomartinovski.github.io/mechuevskakukapuze/Puze/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <button>Visit new website</button>
-          </a>
-          <a
-            href="http://www.meckuevskakukapuze.com.mk"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <button>Visit old website</button>
-          </a>
+          <div className="links">
+            <a
+              href="https://dariomartinovski.github.io/mechuevskakukapuze/Puze/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button>Visit website</button>
+            </a>
+            <a
+              href="https://github.com/dariomartinovski/mechuevskakukapuze"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <BsGithub />
+            </a>
+          </div>
         </div>
       </div>
       <div className="insureLandingPage">
@@ -107,13 +119,22 @@ export default function ProjectsPage() {
             an insurance company called INSURE. The goal was to put attention on
             their people first policy and their great and affordable prices.
           </p>
-          <a
-            href="https://dariomartinovski.github.io/Insure-landing-page/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <button>Visit website</button>
-          </a>
+          <div className="links">
+            <a
+              href="https://dariomartinovski.github.io/Insure-landing-page/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button>Visit website</button>
+            </a>
+            <a
+              href="https://github.com/dariomartinovski/Insure-landing-page"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <BsGithub />
+            </a>
+          </div>
         </div>
       </div>
       <div className="recepiesApp">
@@ -137,13 +158,22 @@ export default function ProjectsPage() {
             like splideJS for the carousells and react-router-dom for the
             navigation.
           </p>
-          <a
-            href="https://dariomartinovski.github.io/recepiesApp/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <button>Visit website</button>
-          </a>
+          <div className="links">
+            <a
+              href="https://dariomartinovski.github.io/recepiesApp/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button>Visit website</button>
+            </a>
+            <a
+              href="https://github.com/dariomartinovski/recepiesApp"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <BsGithub />
+            </a>
+          </div>
         </div>
       </div>
       <div className="budgetWoordle">
@@ -165,13 +195,22 @@ export default function ProjectsPage() {
             only diffence is that this game generates a new word on every
             refresh.
           </p>
-          <a
-            href="https://dariomartinovski.github.io/woordleClone/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <button>Visit website</button>
-          </a>
+          <div className="links">
+            <a
+              href="https://dariomartinovski.github.io/woordleClone/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button>Visit website</button>
+            </a>
+            <a
+              href="https://github.com/dariomartinovski/woordleClone"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <BsGithub />
+            </a>
+          </div>
         </div>
         <div className="summary">
           <h2>Budget calculator</h2>
@@ -188,13 +227,22 @@ export default function ProjectsPage() {
             app uses local storage, so if you refresh the expenses wont be
             deleted.
           </p>
-          <a
-            href="https://dariomartinovski.github.io/budgetCalculator/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <button>Visit website</button>
-          </a>
+          <div className="links">
+            <a
+              href="https://dariomartinovski.github.io/budgetCalculator/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button>Visit website</button>
+            </a>
+            <a
+              href="https://github.com/dariomartinovski/budgetCalculator"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <BsGithub />
+            </a>
+          </div>
         </div>
       </div>
       <div className="miniGames">

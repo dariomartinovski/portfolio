@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { GoLocation } from "react-icons/go";
-import { MdOutlineEmail, MdOutlinePhone } from "react-icons/md";
+import { MdOutlineEmail } from "react-icons/md";
 import "../../styles/Home/Contact.css";
 
 export default function Contact() {
@@ -27,7 +27,6 @@ export default function Contact() {
       <h1>CONTACT</h1>
       <div className="container">
         <form action="submit">
-          {/* <!-- </form>action="mailto:dario.martinovski@hotmail.com"> --> */}
           <div>
             <label htmlFor="name">Name</label>
             <input
@@ -77,11 +76,7 @@ export default function Contact() {
           </p>
           <div className="tag">
             <GoLocation />
-            <p>Boris Trajkovski xx, Sveti Nikole</p>
-          </div>
-          <div className="tag">
-            <MdOutlinePhone />
-            <p>077 - 777 -777</p>
+            <p>Sveti Nikole, North Macedonia</p>
           </div>
           <div className="tag">
             <MdOutlineEmail />

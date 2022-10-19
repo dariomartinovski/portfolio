@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
@@ -45,22 +45,30 @@ export default function Navbar() {
           <path d="M6 36v-3h36v3Zm0-10.5v-3h36v3ZM6 15v-3h36v3Z" />
         </svg>
       </motion.button>
-      {menuState && (
-        <ul className="navlinks">
-          <HashLink smooth to="/#home" onClick={closeMenu}>
-            <li className="navlink">HOME</li>
-          </HashLink>
-          <HashLink smooth to="/#about" onClick={closeMenu}>
-            <li className="navlink">ABOUT</li>
-          </HashLink>
-          <HashLink smooth to="/#projects" onClick={closeMenu}>
-            <li className="navlink">PROJECTS</li>
-          </HashLink>
-          <HashLink smooth to="/#contact" onClick={closeMenu}>
-            <li className="navlink">CONTACT</li>
-          </HashLink>
-        </ul>
-      )}
+      <AnimatePresence>
+        {menuState && (
+          <motion.ul
+            className="navlinks"
+            initial={{ y: -25, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ type: "tween" }}
+            exit={{ y: -25, opacity: 0 }}
+          >
+            <HashLink smooth to="/#home" onClick={closeMenu}>
+              <li className="navlink">HOME</li>
+            </HashLink>
+            <HashLink smooth to="/#about" onClick={closeMenu}>
+              <li className="navlink">ABOUT</li>
+            </HashLink>
+            <HashLink smooth to="/#projects" onClick={closeMenu}>
+              <li className="navlink">PROJECTS</li>
+            </HashLink>
+            <HashLink smooth to="/#contact" onClick={closeMenu}>
+              <li className="navlink">CONTACT</li>
+            </HashLink>
+          </motion.ul>
+        )}
+      </AnimatePresence>
     </nav>
   );
 }
