@@ -1,0 +1,117 @@
+#contact{
+    padding-top: 3rem;
+    width: 100%;
+    min-height: calc(100vh - 3rem);
+    background-color: var(--darkColor);
+    color: var(--lightColor);
+    overflow: hidden;
+    position: relative;
+    isolation: isolate;
+}
+#contact h1{
+    margin: 2rem 0;
+    font-size: var(--titleFont);
+    font-weight: bold;
+    text-align: center;
+}
+#contact .container{
+    margin: 0 10vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(18rem, 1fr));
+    gap: 2rem;
+}
+#contact label{
+    display: block;
+    margin-bottom: 0.2rem;
+}
+#contact input{
+    border-radius: 0.5rem;
+    height: 2em;
+    min-width: 25rem;
+    margin-bottom: 1.5em;
+}
+#contact textarea{
+    resize: none;
+    border-radius: 0.5rem;
+    min-width: 25rem;
+    min-height: 10rem;
+}
+#contact form button{
+    margin-top: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    height: 2rem;
+    min-width: 8rem;
+}
+#contact h3{
+    margin: 1rem 0;
+}
+#contact div:nth-child(2) p{
+    max-width: 45ch;
+    line-height: 1.5;
+}
+#contact .tag{
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    font-size: 1.8rem;
+}
+#contact .tag p{ 
+    margin-left: 1rem;
+    font-size: 1rem;
+}
+#contact .cvDownloadButton{
+    padding: 0.5em 1.5em;
+    border: 0.067rem solid var(--offWhite);
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--offWhite);
+    background: transparent;
+    transition: all 200ms ease-in;
+}
+#contact::before{
+    content: 'CONTACT';
+    color: var(--lightColor);
+    position: absolute;
+    z-index: -1;
+    top: 70vh;
+    left: -2em;
+    font-weight: bold;
+    font-size: var(--backgroundFont);
+    letter-spacing: -0.5vmax;
+    opacity: 0.03;
+    line-height: 0.85;
+}
+#contact::after{
+    content: 'CONTACT';
+    color: var(--lightColor);
+    position: absolute;
+    z-index: -1;
+    top: 10vh;
+    right: -2em;
+    font-weight: bold;
+    font-size: var(--backgroundFont);
+    letter-spacing: -0.5vmax;
+    opacity: 0.03;
+    line-height: 0.85;
+}
+@media only screen and (min-width: 650px){
+    #contact .container>div .cvDownloadButton:hover {
+        background-color: var(--offWhite);
+        color: var(--darkColor);
+        box-shadow: 1rem 1rem 0px blue;
+    }
+}
+@media only screen and (max-width: 1050px){
+    #contact input, #contact textarea{
+        min-width: 100%;
+    }
+    #contact div:nth-child(2)>p{
+        min-width: 100%;
+    }
+    #contact .container>div{
+        margin-bottom: 2rem;
+    }
+}
+  
