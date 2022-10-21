@@ -2,7 +2,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
-import logo from "../images/signature-logo.svg";
+import logo from "../assets/images/signature-logo.svg";
 import "../styles/Navbar.css";
 
 export default function Navbar() {

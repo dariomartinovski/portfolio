@@ -57,7 +57,7 @@
     height: 15rem;
     background-color: var(--darkColor);
     aspect-ratio: 1.15/1;
-    background-image: url("../../images/profile.jpg");
+    background-image: url("../../assets/images/profile.jpg");
     background-position: center;
     background-size: cover;
     clip-path: polygon(0 50%, 25% 0, 75% 0, 100% 50%, 75% 100%, 25% 100%);

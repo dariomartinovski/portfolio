@@ -1,19 +1,19 @@
 import React from "react";
 import { BsGithub } from "react-icons/bs";
-import budgetCalculator from "../images/Mockups/budgetCalculatorMockup.jpg";
-import hangman from "../images/Mockups/hangmanMockup.jpg";
-import insure1 from "../images/Mockups/insure1.jpg";
-import insure2 from "../images/Mockups/insure2.jpg";
-import memoryGame from "../images/Mockups/memoryGameMockup.jpg";
-import menu2 from "../images/Mockups/menuLaptopMockup.jpg";
-import menu3 from "../images/Mockups/menuPhonesMockup.jpg";
-import menu1 from "../images/Mockups/menuScreensMockup.jpg";
-import puze1 from "../images/Mockups/puze1.jpg";
-import puze2 from "../images/Mockups/puze2.jpg";
-import recepies1 from "../images/Mockups/recepiesMockup1.jpg";
-import recepies2 from "../images/Mockups/recepiesMockup2.jpg";
-import tictactoe from "../images/Mockups/tictactoeMockup.jpg";
-import woordle from "../images/Mockups/woordleCloneMockup.jpg";
+import budgetCalculator from "../assets/images/Mockups/budgetCalculatorMockup.jpg";
+import hangman from "../assets/images/Mockups/hangmanMockup.jpg";
+import insure1 from "../assets/images/Mockups/insure1.jpg";
+import insure2 from "../assets/images/Mockups/insure2.jpg";
+import memoryGame from "../assets/images/Mockups/memoryGameMockup.jpg";
+import menu2 from "../assets/images/Mockups/menuLaptopMockup.jpg";
+import menu3 from "../assets/images/Mockups/menuPhonesMockup.jpg";
+import menu1 from "../assets/images/Mockups/menuScreensMockup.jpg";
+import puze1 from "../assets/images/Mockups/puze1.jpg";
+import puze2 from "../assets/images/Mockups/puze2.jpg";
+import recepies1 from "../assets/images/Mockups/recepiesMockup1.jpg";
+import recepies2 from "../assets/images/Mockups/recepiesMockup2.jpg";
+import tictactoe from "../assets/images/Mockups/tictactoeMockup.jpg";
+import woordle from "../assets/images/Mockups/woordleCloneMockup.jpg";
 
 import "../styles/ProjectsPage.css";
 

@@ -24,18 +24,6 @@
   line-height: 1;
   margin-bottom: 0.3em;
 }
-#home button {
-  /* z-index: 1; */
-  border: 0.067rem solid var(--offWhite);
-  color: var(--offWhite);
-  background-color: transparent;
-  backdrop-filter: blur(0.5rem);
-  font-size: calc(var(--smallFont) + 0.5vmin);
-  font-weight: bold;
-  border-radius: 1rem;
-  padding: 1em 1.5em;
-  transition: all 200ms ease-in;
-}
 #home::before {
   margin-left: 0.05em;
   content: "FRONT END DEVELOPER";
@@ -57,14 +45,4 @@
   bottom: 1rem;
   font-size: 3rem;
   color: var(--lightColor);
-}
-@media only screen and (min-width: 650px){
-  #home button{
-    font-size: var(--smallFont);
-    padding: 1em 2em;
-  }
-  #home button:hover {
-      background-color: var(--offWhite);
-      color: var(--darkColor);
-  }
 }
