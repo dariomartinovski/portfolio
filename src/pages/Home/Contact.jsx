@@ -83,7 +83,7 @@ export default function Contact() {
             <MdOutlineEmail />
             <p>dario.martinovski@hotmail.com</p>
           </div>
-          <a href={CV} download="CV-Dario Martinovski">
+          <a href={CV} download="Dario_Martinovski_CV">
             <button class="cvDownloadButton">Download CV</button>
           </a>
         </div>
