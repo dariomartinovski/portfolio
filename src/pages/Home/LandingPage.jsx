@@ -12,7 +12,7 @@ export default function LandingPage() {
           Hi, my name is <span>Dario</span>
         </h3>
         <h1>
-          I'm a Front End <br></br> Web Developer
+          I'm a Full Stack <br></br> Web Developer
         </h1>
       </div>
       <motion.div

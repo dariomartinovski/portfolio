@@ -26,7 +26,7 @@
 }
 #home::before {
   margin-left: 0.05em;
-  content: "FRONT END DEVELOPER";
+  content: "FULL STACK DEVELOPER";
   color: var(--lightColor);
   position: absolute;
   z-index: -1;

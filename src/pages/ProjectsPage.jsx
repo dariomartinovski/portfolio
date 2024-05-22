@@ -21,6 +21,80 @@ export default function ProjectsPage() {
   return (
     <section id="moreProjects">
       <h1>Projects</h1>
+      <div className="wineverse">
+      <img src={recepies1} alt="Recepies app" />
+        <img src={recepies2} alt="Recepies app" />
+
+        <div className="clientSide">
+          <h2>Wineverse</h2>
+          <p>
+            Time: Three months
+            <br />
+            Date started: 11.11.2023 <br />
+            Date finished: 28.01.2024 <br />
+            Technologies: Spring Boot, PostgreSQL, Bootstrap, <br /> Python, Javascript
+          </p>
+        </div>
+        <div className="summary">
+          <h3>Summary</h3>
+          <p>
+          Winerverse with Spring Boot, Thymeleaf and bootstrap for frontend, 
+          which was centralized application for viewing and reviewing the 
+          wineries in Macedonia. There is a functionality to add wineries,
+           review them, search with filters, view the wineries on a embedded map. 
+          </p>
+          <div className="links">
+            <a
+              href="https://github.com/DIANS-devs/DIANS-Proekt"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <BsGithub />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div className="movieverse">
+      <img src={recepies1} alt="Recepies app" />
+        <img src={recepies2} alt="Recepies app" />
+
+        <div className="clientSide">
+          <h2>Movieverse</h2>
+          <p>
+            Time: Four weeks
+            <br />
+            Date started: 10.02.2024 <br />
+            Date finished: 02.03.2024 <br />
+            Technologies: ReactJS, Firebase
+          </p>
+        </div>
+        <div className="summary">
+          <h3>Summary</h3>
+          <p>
+           Movieverse is an online movie database, where you can browse through the latest and
+           most popular movies and TV shows. You can view the details for each movie, look at their
+           trailer, leave comments about them and  add them to your watchlist. I used different google's 
+           youtube API for the youtube trailers, TMDB API for the movie details. The project was made 
+          in ReactJS, with the assistance of Firebase for making the data persistent. The website is also fully mobile responsive.
+          </p>
+          <div className="links">
+            <a
+              href="https://movieverse-5c81e.web.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button>Visit website</button>
+            </a>
+            <a
+              href="https://github.com/dariomartinovski/movieverse"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <BsGithub />
+            </a>
+          </div>
+        </div>
+      </div>
       <div className="planbMenu">
         <img src={menu1} alt="Plab B online menu" />
         <img src={menu2} alt="Plan B online menu" />
@@ -29,9 +103,9 @@ export default function ProjectsPage() {
           <h2>Plan B online menu</h2>
           <p>
             Client: Plan B<br />
-            Time: two weeks
+            Time: Two weeks
             <br />
-            Date: 10.10.2022
+            Date started: 10.10.2022
           </p>
         </div>
         <div className="summary">
@@ -67,10 +141,9 @@ export default function ProjectsPage() {
         <div className="clientSide">
           <h2>Mechuevska Kukja Puze website redesign</h2>
           <p>
-            Client: x<br />
-            Time: three days
+            Time: Three days
             <br />
-            Date: 10.06.2022
+            Date started: 10.06.2022
           </p>
         </div>
         <div className="summary">
@@ -106,10 +179,9 @@ export default function ProjectsPage() {
         <div className="clientSide">
           <h2>Insure landing page</h2>
           <p>
-            Client: x<br />
-            Time: five hours
+            Time: One day
             <br />
-            Date: 15.06.2022
+            Date started: 15.06.2022
           </p>
         </div>
         <div className="summary">
@@ -143,10 +215,9 @@ export default function ProjectsPage() {
         <div className="clientSide">
           <h2>Recepies app</h2>
           <p>
-            Client: x<br />
-            Time: six days
+            Time: Six days
             <br />
-            Date: 20.09.2022
+            Date started: 20.09.2022
           </p>
         </div>
         <div className="summary">
@@ -177,14 +248,14 @@ export default function ProjectsPage() {
         </div>
       </div>
       <div className="budgetWoordle">
-        <img src={woordle} alt="Woordle" />
-        <img src={budgetCalculator} alt="Budget calculator" />
+        <img src={woordle} alt="Woordle clone" />
+        <img src={budgetCalculator} alt="Expense tracker" />
         <div className="summary">
           <h2>Woordle clone</h2>
           <p>
-            Time: two days
+            Time: Two days
             <br />
-            Date: 25.08.2022
+            Date started: 25.08.2022
           </p>
           <p>
             Everybody knows woordle right? Well I liked the game so much I
@@ -213,30 +284,30 @@ export default function ProjectsPage() {
           </div>
         </div>
         <div className="summary">
-          <h2>Budget calculator</h2>
+          <h2>Expense tracker</h2>
           <p>
-            Time: three hours
+            Time: One day
             <br />
-            Date: 28.08.2022
+            Date started: 15.04.2024
           </p>
           <p>
-            This project was also created with ReactJS, it's a really simple
-            application made for recording your expenses. You can add, edit and
-            remove expenses from the list and you can see your total. There's
-            also a filter option for filtering the expenses by their amount. The
-            app uses local storage, so if you refresh the expenses wont be
-            deleted.
+            This project is created with ReactJS, it's a really simple
+            application made for recording your expenses. I made it because i 
+            needed a way to track my student card's spending. In the app you can add,
+            edit, remove and clear all expenses from the list. You can also add a
+            holiday (because the card doesn't work on holidays).
+            The app uses the browsers local storage, so the data is persisted.
           </p>
           <div className="links">
             <a
-              href="https://dariomartinovski.github.io/budgetCalculator/"
+              href="https://dariomartinovski.github.io/expenseTracker/"
               target="_blank"
               rel="noreferrer"
             >
               <button>Visit website</button>
             </a>
             <a
-              href="https://github.com/dariomartinovski/budgetCalculator"
+              href="https://github.com/dariomartinovski/expenseTracker"
               target="_blank"
               rel="noreferrer"
             >

@@ -5,12 +5,13 @@ import "../../styles/Home/About.css";
 
 export default function About() {
   const skills = [
-    { skill: "HTML5", percentage: "90%" },
-    { skill: "CSS3", percentage: "90%" },
-    { skill: "JavaScript", percentage: "80%" },
-    { skill: "ReactJS", percentage: "50%" },
+    { skill: "Spring Boot", percentage: "85%" },
+    { skill: "HTML | CSS", percentage: "90%" },
+    { skill: "ReactJS", percentage: "80%" },
+    { skill: "Python", percentage: "75%" },
+    { skill: "SQL", percentage: "75%" },
+    { skill: ".Net", percentage: "60%" },
     { skill: "Photoshop", percentage: "90%" },
-    { skill: "Illustrator", percentage: "60%" },
   ];
 
   return (
@@ -62,11 +63,17 @@ export default function About() {
           <div className="image"></div>
           <h2>About me</h2>
           <p>
-            Hi i'm <span>Dario Martinovski</span>, a macedonian website
-            developer based in Sveti Nikole, Macedonia. I'm currently studying
-            for a bachelor's degree majoring in Software Engineering at
-            University of FINKI, Skopje. I'm passionate about tech, design, web
+            Hello, my name is <span><b>Dario Martinovski</b></span>, 
+            I'm currently studying for a <b>bachelor's degree</b> majoring in Software Engineering at
+            University of <b>FINKI</b>, Skopje. <br /> Enthusiastic and versatile software engineering student proficient 
+            in web development technologies. Possesses a keen attitude for 
+            learning new technologies and methodologies with a proven track 
+            record of adapting quickly to new challenges. I have a passion for 
+            problem-solving and innovative solutions, also i'm passionate about tech, design, web
             development, and the role they play in our everyday lives.
+            {/* Hi i'm <span>Dario Martinovski</span>, a macedonian website
+            developer based in Sveti Nikole, Macedonia. . I'm passionate  */}
+            
           </p>
         </div>
         <div className="skills">

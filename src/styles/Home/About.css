@@ -47,7 +47,7 @@
 #about .bottomPart{
     margin: 2rem 10vw;
     display: grid;
-    grid-template-columns: 2fr 3fr;
+    grid-template-columns: 4fr 5fr;
     justify-content: center;
     gap: 5rem;
 }
@@ -70,7 +70,7 @@
     margin: 0 auto;
     line-height: 1.5;
     padding: 0 1rem;
-    max-width: 50ch;
+    max-width: 60ch;
 }
 #about .bottomPart .intro p span{
     color: var(--blueColor);
@@ -93,8 +93,8 @@
     color: var(--lightColor);
     background-color: var(--darkBlue);
     min-height: 2rem;
-    width: 4rem;
-    padding: 0 2rem;
+    width: 6rem;
+    padding: 0 1rem;
 }
 #about .bottomPart .skills .progressBar .percentage{
     margin-right: 1rem;
