@@ -1,13 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.162c5f95.css",
-    "main.js": "/portfolio/static/js/main.30266acb.js",
-    "static/media/puzeMockup.jpg": "/portfolio/static/media/puzeMockup.9f667ed787a18ac562ea.jpg",
+    "main.css": "/portfolio/static/css/main.1d60a02f.css",
+    "main.js": "/portfolio/static/js/main.891cabbc.js",
+    "static/media/WineverseMockup_3.jpg": "/portfolio/static/media/WineverseMockup_3.b2272c0777d262d1cb14.jpg",
     "static/media/menuScreensMockup.jpg": "/portfolio/static/media/menuScreensMockup.316619a29586b77e6dda.jpg",
+    "static/media/MovieverseMockup_2.jpg": "/portfolio/static/media/MovieverseMockup_2.5338aeed3be8cef960cc.jpg",
     "static/media/CV.pdf": "/portfolio/static/media/CV.19a634d5dca1ea63c964.pdf",
     "static/media/insure1.jpg": "/portfolio/static/media/insure1.3bf5c6d2087a65bf4872.jpg",
+    "static/media/WineverseMockup_1.jpg": "/portfolio/static/media/WineverseMockup_1.ae92c902c9c0e56ca06a.jpg",
+    "static/media/MovieverseMockup_1.jpg": "/portfolio/static/media/MovieverseMockup_1.08708f47d271a733bf2f.jpg",
+    "static/media/MovieverseHomepage.jpg": "/portfolio/static/media/MovieverseHomepage.66302be5a5b99e998960.jpg",
     "static/media/insure2.jpg": "/portfolio/static/media/insure2.42fb7d5cbb4285ee8ba2.jpg",
-    "static/media/onlineMenuMockup.jpg": "/portfolio/static/media/onlineMenuMockup.94c8ea3323513a707523.jpg",
+    "static/media/WineverseHomepage.jpg": "/portfolio/static/media/WineverseHomepage.a1ba17711696cb21b879.jpg",
+    "static/media/WineverseMockup_2.jpg": "/portfolio/static/media/WineverseMockup_2.ae8e38d5075a1f297f94.jpg",
     "static/media/recepiesMockup1.jpg": "/portfolio/static/media/recepiesMockup1.c0ed46893fa73efd1bbb.jpg",
     "static/media/puze2.jpg": "/portfolio/static/media/puze2.a40f262656c943313f90.jpg",
     "static/media/puze1.jpg": "/portfolio/static/media/puze1.3be815ebdd2b487d7c73.jpg",
@@ -22,11 +27,11 @@
     "static/media/hangmanMockup.jpg": "/portfolio/static/media/hangmanMockup.1b465d139076cc2010e5.jpg",
     "static/media/signature-logo.svg": "/portfolio/static/media/signature-logo.0f56c73d38899d4cee1be75bd5490be1.svg",
     "index.html": "/portfolio/index.html",
-    "main.162c5f95.css.map": "/portfolio/static/css/main.162c5f95.css.map",
-    "main.30266acb.js.map": "/portfolio/static/js/main.30266acb.js.map"
+    "main.1d60a02f.css.map": "/portfolio/static/css/main.1d60a02f.css.map",
+    "main.891cabbc.js.map": "/portfolio/static/js/main.891cabbc.js.map"
   },
   "entrypoints": [
-    "static/css/main.162c5f95.css",
-    "static/js/main.30266acb.js"
+    "static/css/main.1d60a02f.css",
+    "static/js/main.891cabbc.js"
   ]
 }
