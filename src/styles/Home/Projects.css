@@ -42,13 +42,16 @@
     background-size: cover;
 }
 #projects .container:nth-child(2) .imageArea{
-    background-image: url("../../assets/images/onlineMenuMockup.jpg");
+    background-image: url("../../assets/images/MovieverseHomepage.jpg");
+    background-position: center;
 }
 #projects .container:nth-child(3) .imageArea{
-    background-image: url("../../assets/images/puzeMockup.jpg");
+    background-image: url("../../assets/images/WineverseHomepage.jpg");
+    background-position: center;
 }
 #projects .container .tags{
     display: flex;
+    flex-wrap: wrap;
 }
 #projects .container .tags .tag{
     padding: 0.3rem 1rem;
@@ -120,6 +123,9 @@
     }
     #projects .container .tags .tag{
         margin: 1rem 0.3rem;
+    }
+    #projects .container .tags{
+        justify-content: center;
     }
 }
 @media only screen and (min-width: 650px) {

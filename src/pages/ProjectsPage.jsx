@@ -14,6 +14,11 @@ import recepies1 from "../assets/images/Mockups/recepiesMockup1.jpg";
 import recepies2 from "../assets/images/Mockups/recepiesMockup2.jpg";
 import tictactoe from "../assets/images/Mockups/tictactoeMockup.jpg";
 import woordle from "../assets/images/Mockups/woordleCloneMockup.jpg";
+import movieverse1 from "../assets/images/Mockups/MovieverseMockup_1.jpg";
+import movieverse2 from "../assets/images/Mockups/MovieverseMockup_2.jpg";
+import wineverse1 from "../assets/images/Mockups/WineverseMockup_1.jpg";
+import wineverse2 from "../assets/images/Mockups/WineverseMockup_2.jpg";
+import wineverse3 from "../assets/images/Mockups/WineverseMockup_3.jpg";
 
 import "../styles/ProjectsPage.css";
 
@@ -22,9 +27,9 @@ export default function ProjectsPage() {
     <section id="moreProjects">
       <h1>Projects</h1>
       <div className="wineverse">
-      <img src={recepies1} alt="Recepies app" />
-        <img src={recepies2} alt="Recepies app" />
-
+        <img src={wineverse1} alt="Wineverse app" />
+        <img src={wineverse2} alt="Wineverse app" />
+        <img src={wineverse3} alt="Wineverse app" />
         <div className="clientSide">
           <h2>Wineverse</h2>
           <p>
@@ -38,10 +43,13 @@ export default function ProjectsPage() {
         <div className="summary">
           <h3>Summary</h3>
           <p>
-          Winerverse with Spring Boot, Thymeleaf and bootstrap for frontend, 
-          which was centralized application for viewing and reviewing the 
-          wineries in Macedonia. There is a functionality to add wineries,
-           review them, search with filters, view the wineries on a embedded map. 
+          Winerverse is a web application dedicated to list and review wineries in Macedonia.
+          There is a functionality to add wineries, review them, search with filters 
+          like distance, rating and city, also you can view the wineries on an embedded map. 
+          The applicaiton was a team project, made with Spring Boot, Thymeleaf and Bootstrap 
+          for the frontend. For the wineries data, we had to make a web scrapper with Python,
+          we scraped sites like ZlatnaKniga, Tripvisor and few more, then merged and cleaned the data
+          for the applicaiton purposes.
           </p>
           <div className="links">
             <a
@@ -55,8 +63,8 @@ export default function ProjectsPage() {
         </div>
       </div>
       <div className="movieverse">
-      <img src={recepies1} alt="Recepies app" />
-        <img src={recepies2} alt="Recepies app" />
+        <img src={movieverse1} alt="Recepies app" />
+        <img src={movieverse2} alt="Recepies app" />
 
         <div className="clientSide">
           <h2>Movieverse</h2>
